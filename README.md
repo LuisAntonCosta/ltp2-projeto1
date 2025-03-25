@@ -91,7 +91,7 @@ def excluir_produto(id_produto):
 
 Oferece opções para listar, inserir, atualizar e excluir produtos.
 Inclui validação para entradas numéricas 
-Permite ao usuário sair do programa digitando 0.
+e permite ao usuário sair do programa digitando 0.
 ```python
 print("Bem vindo ao banco de dados do estoque de produtos!")
 
