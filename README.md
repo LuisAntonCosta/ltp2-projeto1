@@ -151,6 +151,21 @@ while True:
 
 conexao.close()
 ```
+## Alguns testes como exemplo -> 
+
+![image](https://github.com/user-attachments/assets/b1548cc8-c62e-448d-b7b8-05ea6144eeab)
+![image](https://github.com/user-attachments/assets/bcc5bafd-c354-43cc-8aa8-4fa52601f901)
+
+### Excluindo um item
+![image](https://github.com/user-attachments/assets/bf988529-3e3e-4511-ae3b-af42bcb54519)
+
+### Testando o tratamento de erros da funcao de atualizar
+![image](https://github.com/user-attachments/assets/c0999d84-7ae4-4ade-8f34-6ccb5e5e05d2)
+
+### Testando o programa contra itens duplicados 
+![image](https://github.com/user-attachments/assets/e8a59c0c-2c79-4d52-a543-b215a91427e6)
+
+
 
 
 
