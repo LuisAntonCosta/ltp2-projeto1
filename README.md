@@ -1,7 +1,8 @@
 # ltp2-projeto1
 
 
-Conexão e Criação da Tabela
+##Conexão e Criação da Tabela
+
 O código estabelece conexão com o banco de dados SQLite (estoque.db) e cria a tabela produtos caso ela não exista.
 ```python
 import sqlite3
@@ -20,7 +21,8 @@ cursor.execute("""
 ```
 
 
-Função inserir
+##Função inserir
+
 Usando cursor.execute para inserir um novo produto na tabela, como também seus valores.
 Utiliza try-except para capturar um erro de integridade caso o produto já exista
 ```python
@@ -34,7 +36,8 @@ def inserir_produto(nome,qnt,preco):
         print("Erro: Produto já existe!!")
 ```
 
-Função listar
+##Função listar
+
 Executa um SELECT * FROM produtos para buscar todos os produtos cadastrados.
 Usa fetchall() para obter os resultados e exibe cada produto na tela.
 ```python
@@ -46,7 +49,8 @@ def listar_produtos():
 ```
 
 
-Função atualizar
+##Função atualizar
+
 Atualiza os dados de um produto específico com base no id utilizando UPDATE
 Caso o id fornecido não exista, exibe uma mensagem informando que o item não foi encontrado.
 ```python
@@ -60,7 +64,8 @@ def atualizar_produto(id_produto,novo_nome,nova_qnt, novo_preco):
         print("Item não encontrado!")
 ```
 
-Função excluir
+##Função excluir
+
 Exclui um produto com base no id fornecido.
 Exibe uma mensagem informando se o produto foi encontrado e excluído ou se não foi localizado.
 ```python
@@ -75,7 +80,8 @@ def excluir_produto(id_produto):
 
 
 
-Menu Interativo
+##Menu Interativo
+
 Oferece opções para listar, inserir, atualizar e excluir produtos.
 Inclui validação para entradas numéricas 
 Permite ao usuário sair do programa digitando 0.
